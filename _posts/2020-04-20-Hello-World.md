@@ -1,10 +1,8 @@
-```yaml
 ---
 layout: mypost
 title: 你好，世界！
 categories: []
 ---
-```
 
 > Hello, World!
 
