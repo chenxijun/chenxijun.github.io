@@ -25,7 +25,7 @@ title: 关于我
 
 ## 头像的由来
 
-`Material Design 2`的字母表示在`PowerPoint`的实现
+`Material Design 2`的字母“DUST”在`PowerPoint`的实现
 
 ## 联系我
 
