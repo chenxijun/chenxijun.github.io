@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: 你好，世界！
-categories: []
+categories: [杂谈]
 ---
 
 > Hello, World!
