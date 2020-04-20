@@ -137,10 +137,10 @@ body {
   transition: transform 500ms ease-in-out;
   transition: transform 500ms ease-in-out, -webkit-transform 500ms ease-in-out;
 }
-.header .logo:hover {
+/* .header .logo:hover {
   -webkit-transform: rotate(360deg);
   transform: rotate(360deg);
-}
+} */
 .header .menu {
   -webkit-box-flex: 1;
   flex-grow: 1;
