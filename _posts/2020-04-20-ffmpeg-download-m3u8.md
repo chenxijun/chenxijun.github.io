@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: 你好，世界！
+title: FFmpeg下载m3u8视频
 categories: [技术,ffmpeg]
 ---
 
@@ -12,7 +12,7 @@ categories: [技术,ffmpeg]
 
 ![一个典型的m3u8文件](classic-m3u8.png)
 
-## 链接下载
+## 下载转格式
 
 如果有指向m3u8的链接，则有最为简单的下载方式：
 
@@ -26,4 +26,12 @@ ffmpeg -i [视频链接] [保存文件]
 ffmpeg -i 'http://link.to.your/video.m3u8' test.mp4
 ```
 
+运行效果如下：
+
 ![shell](shell.png)
+
+然后就可以在目标目录找到对应文件了
+
+## 关于m3u8的问题
+
+m3u8中ts文件的链接有相对与绝对之分，相对地址只能运用链接下载，绝对地址可以以本地的m3u8文件进行下载。
