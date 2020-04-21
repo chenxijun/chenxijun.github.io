@@ -4,7 +4,7 @@ title: FFmpeg相关批处理
 categories: [技术,ffmpeg,网课,批处理]
 ---
 
-## <a id="comp">方便地压缩视频文件</a>
+## 方便地压缩视频文件
 
 ```bat
 @ECHO OFF
@@ -45,7 +45,7 @@ PAUSE
 EXIT
 ```
 
-## <a id="m3u8">方便地下载腾讯课堂视频</a>
+## 方便地下载腾讯课堂视频
 
 ```bat
 @ECHO OFF
