@@ -3,8 +3,6 @@ layout: mypost
 title: 关于我
 ---
 
-> `Hello, World!`
-
 ## 我是谁
 
 - 了解 Python, C#, C/C++ 等语言，对计算机有着浓厚的兴趣
