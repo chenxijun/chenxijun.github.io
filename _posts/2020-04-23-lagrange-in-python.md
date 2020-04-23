@@ -70,4 +70,4 @@ plt.show()              # 运用matplotlib显示图像
 
 结果如图：
 
-![函数图像](plot_image.png)
+![函数图像](plot-image.png)
