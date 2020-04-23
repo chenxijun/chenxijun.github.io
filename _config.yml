@@ -42,7 +42,7 @@ extAdsense: false
 extMTA: false
 
 # 百度收录自动推送,不需要请设置为false
-extBaidu: false
+extBaidu: true
 
 # 数学公式支持，比较影响加载速度,不需要请设置为false
 extMath: true
