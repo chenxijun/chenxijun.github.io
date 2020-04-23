@@ -14,7 +14,7 @@ categories: [技术,Python,数学建模]
 
 平面上有$(x_0,y_0),(x_1,y_1),\dots,(x_n,y_n)$共$n$个点，构造最高为$n$次的多项式函数$L_n(x)$
 
-令$D_n=\{0,1,\dots,n\}，B_k=\{i|i\in D,i\neq k\}$
+$$D_n=\{0,1,\dots,n\}，B_k=\{i|i\in D,i\neq k\}$$
 
 $$p_k(x)=\prod_{i\in B_k}\frac{x-x_i}{x_k-x_i}$$
 
