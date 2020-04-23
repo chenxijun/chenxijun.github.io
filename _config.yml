@@ -46,3 +46,6 @@ extBaidu: false
 
 # 数学公式支持，比较影响加载速度,不需要请设置为false
 extMath: true
+
+# Gitalk支持
+extGitalk: true
