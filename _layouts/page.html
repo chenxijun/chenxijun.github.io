@@ -4,9 +4,7 @@
 <body ondragstart="return false;">
 {% include header.html -%}
 {{ content }}
-{%- if site.extGitalk and page.layout == "mypost" %}
 <div id="gitalk-container"></div>
-{% endif %}
 {% include footer.html -%}
 {% include script.html -%}
 </body>
