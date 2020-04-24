@@ -92,7 +92,7 @@ def L(*args):
     ans=[sum(i) for i in zip(*lists)]
     ans.reverse()
     def rtn_func(x):
-        return sum([i*x**j for i,j in zip(ans,range(0,len(ans)))])
+        return sum([a*x**i for i,a in enumerate(ans)])
     return rtn_func
 ```
 
