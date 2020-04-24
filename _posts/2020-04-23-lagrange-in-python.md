@@ -71,3 +71,60 @@ plt.show()              # 运用matplotlib显示图像
 结果如图：
 
 ![函数图像](plot-image.png)
+
+## Python优化
+
+```python
+def p(args,ex):
+    def loop(largs):
+        if len(largs)==1:return [1,-largs[0]]
+        dp=loop(largs[1:])
+        return [-largs[0]*i+j for i,j in zip([0]+dp,dp+[0])]
+    largs=list(args)
+    largs.remove(ex)
+    div=1
+    for i in largs:
+        div*=ex[0]-i[0]
+    return [i*ex[1]/div for i in loop(list(zip(*largs))[0])]
+
+def L(*args):
+    lists=[p(args,i) for i in args]
+    ans=[sum(i) for i in zip(*lists)]
+    ans.reverse()
+    def rtn_func(x):
+        return sum([i*x**j for i,j in zip(ans,range(0,len(ans)))])
+    return rtn_func
+```
+
+很短，能用，速度快，直接计算出多项式系数，无需循环
+
+至于快了多少，见测试（测试环境：i5-8650U笔记本，未插电）
+
+```python
+print('Time test:')
+# data gen
+data=[[0,0]]
+for i in range(0,63):
+    data.append([data[i][0]+np.random.ranf(),np.random.ranf()])
+print('#1 func gen')
+%time func_new=new_L(*data)
+%time func=L(*data)
+print('#2 calc')
+x=np.arange(0,100,0.01)
+%time y1=[func_new(i) for i in x]
+%time y2=[func(i) for i in x]
+```
+
+输出：
+
+```output
+Time test:
+#1 func gen
+Wall time: 36 ms
+Wall time: 0 ns
+#2 calc
+Wall time: 429 ms
+Wall time: 26.7 s
+```
+
+虽然函数预处理需要更长的时间，但是运算时快了不止一个量级
