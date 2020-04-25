@@ -22,13 +22,13 @@ categories: [技术,杂谈,维护]
 
 Github仓库重命名为[dustsblog](https://github.com/chenxijun/dustsblog/)，更改CNAME，仓库导入Gitee，开启Pages，发现不能更改CNAME遂选择迁入Coding，调整CNAME。
 
-对DNSPod进行调整，分境内外访问，快速便捷。
+对DNSPod进行调整，分境内外访问，快速便捷，同时开启强制HTTPS，完工。
 
 ![重命名](rename-repo.png)
 
 ![CNAME](bind-domain.png)
 
-
+![改变域名](change-domain.png)
 
 ## 遇到问题
 
