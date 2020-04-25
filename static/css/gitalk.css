@@ -1120,8 +1120,8 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-left: 1.25em;
-  padding: 0.75em 1em;
+  margin-left: 0.5em;
+  padding: 0.5em 0.5em;
   background-color: #f9f9f9;
   overflow: auto;
   -webkit-transition: all ease 0.25s;
@@ -1221,7 +1221,7 @@
   display: block;
 }
 .gt-container .gt-comment-admin .gt-comment-content {
-  background-color: #f6f9fe;
+  background-color: #00000000;
 }
 @-webkit-keyframes gt-kf-rotate {
   0% {
