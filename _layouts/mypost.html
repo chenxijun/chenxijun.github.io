@@ -6,7 +6,7 @@
 <div class="page page-post">
   <h1 class="title" id="{{ page.title }}">{{ page.title }}</h1>
   {% if page.date %}
-  <div class="subtitle">{{site.author}} 于 {{ page.date | date: "%Y-%m-%d" }} 发布</div>
+  <div class="subtitle">{{site.author}} 于 {{ page.date | date: "%Y-%m-%d" }} 坑布</div>
   {% endif %}
   <div class="post">
     {{ content }}
@@ -17,7 +17,9 @@
   </div>
   {% endif %}
 </div>
+{% if site.extGitalk -%}
 <div id="gitalk-container"></div>
+{% endif %}
 {% include footer.html -%}
 {% include script.html -%}
 </body>
