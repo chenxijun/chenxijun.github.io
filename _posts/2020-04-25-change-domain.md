@@ -42,6 +42,10 @@ Github仓库重命名为[dustsblog](https://github.com/chenxijun/dustsblog/)，�
 
 ![域名](my-domanin.png)
 
+#### Gitalk失效
+
+把repo改回去就行了
+
 ## TODO：
 
 家里通了IPv6，不如用树莓派搭建一个镜像站？
