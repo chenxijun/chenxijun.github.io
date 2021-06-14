@@ -3,9 +3,9 @@ encoding: utf-8
 # SEO相关信息
 title: Dust's Blog
 description: 尘息的个人博客
-keywords: Blog,C#,Python,Philosophy,Livelihood
+keywords: Blog
 author: 尘息Dust
-footerText: 'Copyright © 2020'
+footerText: 'Copyright © 2021'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
@@ -27,8 +27,6 @@ menu:
     url: /pages/categories.html
   - title: 搜索
     url: /pages/search.html
-  - title: 镜像
-    url: /pages/mirrors.html
   - title: 关于
     url: /pages/about.html
 
